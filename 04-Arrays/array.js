@@ -31,3 +31,13 @@ console.log("[100]", students[100]);
 
 // Elemente hinzufügen
 students.push("Joker", "Joker 2");
+console.log(students);
+
+// Letztes Element entfernen 
+const lastElement = students.pop();
+console.log("lastElement", lastElement);
+console.log(students);
+
+// Ein Element überschreiben
+students[0] = "Maximilian Müller";
+console.log(students);
