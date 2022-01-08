@@ -1,15 +1,17 @@
 "use strict"
-
+/*
 let student1 = "Max Müller";
 let student2 = "Monika Müller";
 let student3 = "Max Müller";
 
 console.log(student1, student2, student3)
+*/
 /**
  * Mit einem Array können wir z.B. eine komplette Teilnehmerliste
  * speichern!
  */
 
+/*
 let students = [
     "Max Müller",
     "Erika Mustermann",
@@ -40,4 +42,4 @@ console.log(students);
 
 // Ein Element überschreiben
 students[0] = "Maximilian Müller";
-console.log(students);
+console.log(students);*/

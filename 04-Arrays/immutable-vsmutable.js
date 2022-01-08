@@ -1,12 +1,24 @@
 "use strict"
 
-// Strings sind Immutable (unveränderlich!);
+/*// Strings sind Immutable (unveränderlich!);
 let greeting = "Hallo Welt";
 greeting = greeting + "!";
 console.log(greeting);
 
-let students = ["Max", "Moritz"];
-students.push("Joker");
-console.log(students);
 
-//
+// Aber Arrays sind mutable (veränderlich!)
+let students = ["Max", "Moritz"];
+let copy = students;
+students.push("Joker");
+console.log(copy);
+
+
+// Mutable und const ...
+const students2 = ["Max", "Moritz"];
+students2.push("Joker");
+console.log("students2", students2)
+
+
+// Das hier gibt einen Interpreter fehler da die Variable students2 final ist und der Inhalt dieser Variable nicht veränderter werden darf, also in dem Fall die Schnittstelle zum Array
+// students2 = ["Max", "Moritz"];
+*/
