@@ -22,7 +22,18 @@ console.log("Aufrufen, Math.ceil(5.5):", Math.ceil(5.5));
 
 
 // Maximum
-console.log("Math.max(1, 2, 3):", Math.max(1, 2, 3));                    // 3
+console.log("Math.max(1, 2, 3):", Math.max(1, 2, 3)); // 3
 
 // Minimum
-console.log("Math.min(1, 2, 3):", Math.min(1, 2, 3));                    // 1
+console.log("Math.min(1, 2, 3):", Math.min(1, 2, 3)); // 1
+
+/*
+let liste = [
+    "Banane",
+    4,
+    ["Element 1", "Element 2"]
+];
+
+console.log(liste[2][0]);
+
+*/
