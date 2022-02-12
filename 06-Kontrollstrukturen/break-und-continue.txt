@@ -1,0 +1,4 @@
+From: <hallowelt@example.com>
+To: <hallowelt@example.net>
+Betreff: <"Hier kommt der Betreff">
+
