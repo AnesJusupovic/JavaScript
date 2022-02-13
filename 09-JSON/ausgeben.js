@@ -9,3 +9,7 @@ const dataAsJson = JSON.stringify(data);
 
 console.log("dataAsJson:", dataAsJson);
 console.log("typeof dataAsJson:", typeof dataAsJson);
+
+// Antipattern! fs.writeFileSync() ist langsam!
+const fs = require("fs");
+fs.writeFileSync("ausgeben.json", dataAsJson);
