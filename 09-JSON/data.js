@@ -6,6 +6,6 @@
 
 // Von JavaScript nach JSON
 const data = [
-    { firstname: "Max", age: 21 },
-    { firstname: "Laura", age: 35 }
+    { "firstname": "Max", "age": 21, "enrolled": true },
+    { "firstname": "Laura", "age": 35, "enrolled": false }
 ]
