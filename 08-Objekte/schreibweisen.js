@@ -2,7 +2,10 @@
 
 const student = {
     name: "Max Mustermann",
-    age: 21
+    age: 21,
+    "2019-2020": "Ungarisch",
+    "gewünschter Kurs": "Bulgarisch"
 }
 
-console.log(student.age)
+const property = "name"
+console.log(student["age"])
