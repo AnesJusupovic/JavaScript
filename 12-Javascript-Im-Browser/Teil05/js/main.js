@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const contactButton = document.getElementById("contact-me")
 
-    contactButton.addEventListener("click", (a) => {
-        console.log(a)
+    contactButton.addEventListener("click", (event) => {
+        event.preventDefault();
         alert("Kontakt wurde geklickt!")
     })
 })
